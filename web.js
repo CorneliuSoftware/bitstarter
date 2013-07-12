@@ -1,6 +1,6 @@
 var express = require('express');
 var fs = require('fs');
-var fileName = 'index.html';
+var fileName = './index.html';
 var textString = fs.readFileSync(fileName,'utf8');
 var app = express.createServer(express.logger());
 
